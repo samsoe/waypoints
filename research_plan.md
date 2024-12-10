@@ -64,10 +64,133 @@
 _(To be filled as research progresses)_
 
 ### Technical Findings
-_(To be filled as research progresses)_
+
+#### Waypoint Mission Limitations
+
+1. DJI SDK Waypoint Limits:
+   - Traditional DJI SDK: Maximum 99 waypoints per mission
+   - DJI Terra: Supports up to 65,535 waypoints per route
+   - Waypoint 2.0 (newer SDK): Maximum 65,535 waypoints per mission
+
+2. Handling Large Missions (>99 waypoints):
+   - Break into multiple smaller missions
+   - Use DJI Terra for planning complex routes
+   - Consider using Waypoint 2.0 API for newer enterprise drones
+   - Mission upload time increases with waypoint count
+
+3. Mission Storage:
+   - Local Storage: Limited by device memory
+   - Onboard Storage: Varies by drone model
+   - Consider chunking large missions into manageable segments
+
+4. Performance Considerations:
+   - Battery life becomes critical with large waypoint missions
+   - Memory usage on mobile devices
+   - Upload time for large mission files
+   - RTK fix maintenance across extended missions
+
+#### Existing Implementations and Examples
+
+1. Official DJI Sample Applications:
+   - [Mobile SDK Waypoint Sample](https://github.com/dji-sdk/Mobile-SDK-Android/tree/master/Sample Code) - Demonstrates basic waypoint mission setup
+   - [DJI GSDemo](https://github.com/dji-sdk/Mobile-SDK-iOS/tree/master/Sample Code) - Ground Station waypoint example
+
+2. Key Open Source Projects:
+   - [Litchi](https://flylitchi.com/) - Popular third-party mission planner supporting waypoints
+   - [QGroundControl](http://qgroundcontrol.com/) - Open-source ground control station
+
+3. Available APIs and Methods:
+   - WaypointMissionOperator class for mission control
+   - WaypointMission.Builder for mission configuration
+   - Key mission parameters:
+     - maxFlightSpeed
+     - autoFlightSpeed
+     - headingMode
+     - flightPathMode
+     - finishedAction
+     - RTK positioning requirements
+
+4. Implementation Approaches:
+   - Mobile app-based control
+   - Desktop planning with mission upload
+   - Integration with mapping software
+   - RTK base station coordination
+
+#### DJI Terra RTK & Image Capture Capabilities
+
+1. RTK Integration:
+   - Supports RTK positioning for high-precision waypoint navigation
+   - Can maintain centimeter-level positioning accuracy
+   - Compatible with D-RTK 2 Mobile Station and Network RTK
+   - Records RTK positioning data in image metadata
+
+2. Image Capture Features:
+   - Supports automated image capture at waypoints
+   - Can trigger all cameras (including multispectral) at specified points
+   - Image capture modes:
+     - Time interval
+     - Distance interval
+     - Waypoint-triggered
+     - Terrain-aware capture points
+
+3. Multispectral Considerations:
+   - Supports synchronized capture of all spectral bands
+   - Records RTK coordinates for each image
+   - Allows setting overlap ratio for mapping missions
+   - Can adjust exposure settings for each band
+
+4. Data Output:
+   - Stores RTK positioning data in image EXIF
+   - Generates detailed flight logs with RTK status
+   - Exports waypoint data with RTK coordinates
+   - Compatible with post-processing software
+
+#### Waypoint 2.0 API RTK & Image Capture Capabilities
+
+1. Mission Control Features:
+   - Supports RTK positioning throughout mission
+   - Allows precise waypoint coordinates with altitude control
+   - Can define action types at each waypoint
+   - Supports both global and local coordinate systems
+
+2. Image Capture Actions:
+   - Supports camera actions at waypoints via `WaypointV2Action`
+   - Action types include:
+     - `WaypointV2ActionType.CAMERA_SHOOT_PHOTO`
+     - `WaypointV2ActionType.CAMERA_RECORD_VIDEO`
+     - `WaypointV2ActionType.CAMERA_FOCUS`
+     - `WaypointV2ActionType.CAMERA_ZOOM`
+   - Can trigger at specific waypoint or between waypoints
+
+3. RTK Integration:
+   - Supports RTK positioning data in mission planning
+   - Records RTK status in mission telemetry
+   - Can maintain RTK fix during entire mission
+   - Allows real-time position corrections
+
+4. Limitations and Considerations:
+   - Actions need to be programmatically defined
+   - More complex setup compared to DJI Terra
+   - Requires custom development for multispectral synchronization
+   - Need to handle RTK status monitoring manually
+
+5. Data Management:
+   - Developer responsible for image metadata storage
+   - Must implement own RTK data logging
+   - Requires custom solution for data organization
+   - Can access raw RTK positioning data
 
 ### Implementation Notes
 _(To be filled as research progresses)_
 
 ### Questions and Concerns
-_(To be filled as research progresses)_ 
+1. RTK Integration:
+   - How to ensure stable RTK fix during mission?
+   - Base station setup requirements?
+2. Multispectral Considerations:
+   - Optimal flight parameters for spectral data collection
+   - Data quality verification during mission
+3. Mission Planning:
+   - Maximum waypoints per mission
+   - Handling of large survey areas
+   - Battery life constraints 
