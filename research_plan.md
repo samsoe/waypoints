@@ -180,6 +180,144 @@ _(To be filled as research progresses)_
    - Requires custom solution for data organization
    - Can access raw RTK positioning data
 
+#### Waypoint 2.0 API Details
+
+1. API Structure:
+   - Part of DJI Mobile SDK (MSDK)
+   - Core Classes:
+     - `WaypointV2Mission`: Mission configuration
+     - `WaypointV2`: Individual waypoint settings
+     - `WaypointV2Action`: Action definitions
+     - `WaypointV2MissionOperator`: Mission control
+
+2. Key API Features:
+   - Mission Planning:
+     - Configure waypoint coordinates
+     - Set flight speed and altitude
+     - Define heading mode
+     - Set gimbal actions
+     - Configure camera actions
+   
+   - Mission Control:
+     - Start/stop missions
+     - Pause/resume
+     - Real-time mission updates
+     - Mission state monitoring
+
+3. API Documentation:
+   - Official Documentation: https://developer.dji.com/api-references/android-api/Components/Missions/DJIWaypointV2Mission.html
+   - Sample Code Repository: https://github.com/dji-sdk/Mobile-SDK-Android
+   - API Reference Guide
+   - Code Examples
+   - Integration Guides
+
+4. Development Requirements:
+   - DJI Developer Account
+   - Enterprise SDK License
+   - Mobile Development Environment:
+     - Android Studio / Xcode
+     - DJI Mobile SDK
+     - Sample Application
+
+5. API Access:
+   - Register at developer.dji.com
+   - Apply for Enterprise SDK license
+   - Download SDK and documentation
+   - Access to developer support
+
+#### Third-Party Solution Limitations
+
+1. Litchi Waypoint Capabilities:
+   - Maximum 99 waypoints per mission
+   - Limited by DJI's traditional SDK restrictions
+   - Cannot exceed this limit even with paid version
+   - Workarounds:
+     - Breaking missions into multiple segments
+     - Using "Resume Mission" feature between segments
+     - Creating multiple mission files
+
+2. Litchi Mission Features:
+   - Supports curve/point-of-interest missions
+   - Can trigger camera actions at waypoints
+   - Supports basic RTK positioning data
+   - Limited multispectral camera support
+
+3. Comparison with DJI Solutions:
+   - More limited than DJI Terra (65,535 waypoints)
+   - More limited than Waypoint 2.0 API (65,535 waypoints)
+   - Easier to use but less flexible
+   - Better suited for simpler missions
+
+#### Ground Control Station Solutions
+
+1. QGroundControl Compatibility:
+   - Primary support for MAVLink-based systems (ArduPilot, PX4)
+   - No direct support for DJI Mavic 3 Enterprise
+   - Cannot interface directly with DJI's closed ecosystem
+   - Would require custom firmware/hardware modifications
+
+2. QGroundControl Capabilities (for supported drones):
+   - Can handle thousands of waypoints (limited by vehicle firmware)
+   - Supports complex mission planning
+   - Advanced RTK integration
+   - Comprehensive flight data logging
+   - Survey planning tools
+
+3. DJI Integration Challenges:
+   - DJI uses proprietary protocols
+   - No official MAVLink support on Mavic series
+   - Third-party adapters exist but:
+     - May void warranty
+     - Require hardware modifications
+     - Risk of firmware incompatibility
+
+4. Alternative Approach:
+   - Stick with DJI's ecosystem (Terra or Waypoint 2.0 API)
+   - Both support required waypoint count (65,535)
+   - Maintain warranty and official support
+   - Native multispectral camera integration
+
+#### Open Source Options
+
+1. Current Open Source Landscape:
+   - Limited options due to DJI's closed ecosystem
+   - No direct open-source ground control solutions
+   - Some community projects exist but with limitations
+
+2. Notable Open Source Projects:
+   - DJI-Reverse-Engineering (GitHub):
+     - Unofficial protocol documentation
+     - Experimental implementations
+     - Not production-ready
+     - High risk of breaking with firmware updates
+
+   - MAVROS-DJI-BRIDGE:
+     - Attempts to bridge DJI and MAVLink
+     - Early development stage
+     - Limited device support
+     - No multispectral support
+
+3. Challenges with Open Source Solutions:
+   - No official SDK support for open platforms
+   - Risk of firmware incompatibility
+   - Limited access to advanced features:
+     - RTK functionality
+     - Multispectral camera control
+     - Mission safety features
+   - Potential warranty implications
+
+4. Community Development Status:
+   - Active reverse engineering efforts
+   - Focus mainly on consumer DJI drones
+   - Enterprise features (RTK, multispectral) not prioritized
+   - No stable open-source alternative available
+
+5. Practical Considerations:
+   - Open source options not viable for professional use
+   - Reliability concerns for survey operations
+   - Risk of data loss or mission failure
+   - Recommended to stay within DJI ecosystem
+
 ### Implementation Notes
 _(To be filled as research progresses)_
 
@@ -194,3 +332,37 @@ _(To be filled as research progresses)_
    - Maximum waypoints per mission
    - Handling of large survey areas
    - Battery life constraints 
+
+#### Current Product Status (As of 2024)
+
+1. DJI Terra Status:
+   - Active commercial product
+   - Latest version: 3.7.2 (January 2024)
+   - Annual license required ($2,999/year)
+   - Confirmed support for Mavic 3M Enterprise
+   - Regular updates and bug fixes
+   - Available at: https://www.dji.com/dji-terra
+
+2. Waypoint 2.0 API Status:
+   - Part of DJI Mobile SDK 5.x
+   - Latest SDK version: v5.8.0 (December 2023)
+   - Actively maintained
+   - Supported Platforms:
+     - iOS (11.0 or later)
+     - Android (6.0 or later)
+   - Documentation: https://developer.dji.com/doc/mobile-sdk-tutorial/en/
+
+3. DJI Mobile SDK Support:
+   - Official support for Mavic 3 Enterprise series
+   - Enterprise SDK license required
+   - Active developer forum
+   - Regular SDK updates
+   - Enterprise Developer Support available
+
+4. Development Considerations:
+   - Terra: Ready-to-use commercial solution
+   - Waypoint 2.0: Custom development required
+   - Both actively supported by DJI
+   - Both receive regular updates
+   - Enterprise-level support available
+  
