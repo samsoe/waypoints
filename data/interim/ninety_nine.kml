@@ -1,0 +1,1341 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>ninety_nine.kml</name>
+	<Schema name="ninety_nine" id="S_ninety_nine_DDD">
+		<SimpleField type="double" name="latitude"><displayName>&lt;b&gt;latitude&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="double" name="longitude"><displayName>&lt;b&gt;longitude&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="double" name="altitude"><displayName>&lt;b&gt;altitude&lt;/b&gt;</displayName>
+</SimpleField>
+	</Schema>
+	<Style id="hlightPointStyle">
+		<IconStyle>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle_highlight.png</href>
+			</Icon>
+		</IconStyle>
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>latitude</b></td><td>$[ninety_nine/latitude]</td></tr>
+  <tr><td><b>longitude</b></td><td>$[ninety_nine/longitude]</td></tr>
+  <tr><td><b>altitude</b></td><td>$[ninety_nine/altitude]</td></tr>
+</table>
+]]></text>
+		</BalloonStyle>
+	</Style>
+	<Style id="normPointStyle">
+		<IconStyle>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+			</Icon>
+		</IconStyle>
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>latitude</b></td><td>$[ninety_nine/latitude]</td></tr>
+  <tr><td><b>longitude</b></td><td>$[ninety_nine/longitude]</td></tr>
+  <tr><td><b>altitude</b></td><td>$[ninety_nine/altitude]</td></tr>
+</table>
+]]></text>
+		</BalloonStyle>
+	</Style>
+	<StyleMap id="pointStyleMap">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#normPointStyle</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#hlightPointStyle</styleUrl>
+		</Pair>
+	</StyleMap>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_ninety_nine_DDD">
+					<SimpleData name="latitude">46.6798</SimpleData>
+					<SimpleData name="longitude">-114.04</SimpleData>
+					<SimpleData name="altitude">1098.81</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-114.0398676666667,46.67980730555557,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_ninety_nine_DDD">
+					<SimpleData name="latitude">46.6799</SimpleData>
+					<SimpleData name="longitude">-114.04</SimpleData>
+					<SimpleData name="altitude">1099.03</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-114.0398669444444,46.67994894444443,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_ninety_nine_DDD">
+					<SimpleData name="latitude">46.6801</SimpleData>
+					<SimpleData name="longitude">-114.04</SimpleData>
+					<SimpleData name="altitude">1099.58</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-114.0398656666667,46.68014124999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_ninety_nine_DDD">
+					<SimpleData name="latitude">46.6803</SimpleData>
+					<SimpleData name="longitude">-114.04</SimpleData>
+					<SimpleData name="altitude">1099.33</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-114.0398549444444,46.68031255555557,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_ninety_nine_DDD">
+					<SimpleData name="latitude">46.6803</SimpleData>
+					<SimpleData name="longitude">-114.04</SimpleData>
+					<SimpleData name="altitude">1099.02</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-114.0398038888889,46.68033963888887,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_ninety_nine_DDD">
+					<SimpleData name="latitude">46.6801</SimpleData>
+					<SimpleData name="longitude">-114.04</SimpleData>
+					<SimpleData name="altitude">1099.38</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-114.0396160555556,46.68012497222222,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_ninety_nine_DDD">
+					<SimpleData name="latitude">46.6798</SimpleData>
+					<SimpleData name="longitude">-114.04</SimpleData>
+					<SimpleData name="altitude">1098.78</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-114.0398658888889,46.67976183333331,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_ninety_nine_DDD">
+					<SimpleData name="latitude">46.6803</SimpleData>
+					<SimpleData name="longitude">-114.04</SimpleData>
+					<SimpleData name="altitude">1099.13</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-114.039737,46.68026883333333,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_ninety_nine_DDD">
+					<SimpleData name="latitude">46.68</SimpleData>
+					<SimpleData name="longitude">-114.039</SimpleData>
+					<SimpleData name="altitude">1099.28</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-114.0394799166667,46.67996027777778,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_ninety_nine_DDD">
+					<SimpleData name="latitude">46.6798</SimpleData>
+					<SimpleData name="longitude">-114.039</SimpleData>
+					<SimpleData name="altitude">1099.18</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-114.0393598611111,46.67983186111108,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_ninety_nine_DDD">
+					<SimpleData name="latitude">46.6798</SimpleData>
+					<SimpleData name="longitude">-114.039</SimpleData>
+					<SimpleData name="altitude">1099.17</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-114.0393092222222,46.67984430555556,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_ninety_nine_DDD">
+					<SimpleData name="latitude">46.6799</SimpleData>
+					<SimpleData name="longitude">-114.039</SimpleData>
+					<SimpleData name="altitude">1099.12</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-114.0393033333333,46.67992913888887,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_ninety_nine_DDD">
+					<SimpleData name="latitude">46.6801</SimpleData>
+					<SimpleData name="longitude">-114.039</SimpleData>
+					<SimpleData name="altitude">1099.11</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-114.0393025277778,46.68010063888887,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_ninety_nine_DDD">
+					<SimpleData name="latitude">46.6803</SimpleData>
+					<SimpleData name="longitude">-114.039</SimpleData>
+					<SimpleData name="altitude">1098.92</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-114.0393023333333,46.68028858333332,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_ninety_nine_DDD">
+					<SimpleData name="latitude">46.6805</SimpleData>
+					<SimpleData name="longitude">-114.039</SimpleData>
+					<SimpleData name="altitude">1098.61</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-114.0393025,46.68048641666668,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_ninety_nine_DDD">
+					<SimpleData name="latitude">46.6807</SimpleData>
+					<SimpleData name="longitude">-114.039</SimpleData>
+					<SimpleData name="altitude">1098.28</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-114.0393029722222,46.68067297222224,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_ninety_nine_DDD">
+					<SimpleData name="latitude">46.6809</SimpleData>
+					<SimpleData name="longitude">-114.039</SimpleData>
+					<SimpleData name="altitude">1098.06</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-114.0393028055556,46.68087488888891,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_ninety_nine_DDD">
+					<SimpleData name="latitude">46.6811</SimpleData>
+					<SimpleData name="longitude">-114.039</SimpleData>
+					<SimpleData name="altitude">1098.23</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-114.0393029166667,46.68107444444443,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_ninety_nine_DDD">
+					<SimpleData name="latitude">46.6812</SimpleData>
+					<SimpleData name="longitude">-114.039</SimpleData>
+					<SimpleData name="altitude">1098.54</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-114.0392938611111,46.68123138888887,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_ninety_nine_DDD">
+					<SimpleData name="latitude">46.6813</SimpleData>
+					<SimpleData name="longitude">-114.039</SimpleData>
+					<SimpleData name="altitude">1098.48</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-114.0392708055555,46.68125194444445,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_ninety_nine_DDD">
+					<SimpleData name="latitude">46.6812</SimpleData>
+					<SimpleData name="longitude">-114.039</SimpleData>
+					<SimpleData name="altitude">1098.49</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-114.0392418888889,46.68117888888888,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_ninety_nine_DDD">
+					<SimpleData name="latitude">46.681</SimpleData>
+					<SimpleData name="longitude">-114.039</SimpleData>
+					<SimpleData name="altitude">1098.53</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-114.0391895833333,46.68102975000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_ninety_nine_DDD">
+					<SimpleData name="latitude">46.6808</SimpleData>
+					<SimpleData name="longitude">-114.039</SimpleData>
+					<SimpleData name="altitude">1098.66</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-114.0391245555556,46.68083944444445,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_ninety_nine_DDD">
+					<SimpleData name="latitude">46.6806</SimpleData>
+					<SimpleData name="longitude">-114.039</SimpleData>
+					<SimpleData name="altitude">1098.82</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-114.0390576944444,46.68064713888889,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_ninety_nine_DDD">
+					<SimpleData name="latitude">46.6805</SimpleData>
+					<SimpleData name="longitude">-114.039</SimpleData>
+					<SimpleData name="altitude">1098.86</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-114.0389939444444,46.68046505555556,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_ninety_nine_DDD">
+					<SimpleData name="latitude">46.6803</SimpleData>
+					<SimpleData name="longitude">-114.039</SimpleData>
+					<SimpleData name="altitude">1098.78</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-114.0389280277778,46.68027686111109,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_ninety_nine_DDD">
+					<SimpleData name="latitude">46.6801</SimpleData>
+					<SimpleData name="longitude">-114.039</SimpleData>
+					<SimpleData name="altitude">1098.53</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-114.03886225,46.68008961111111,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_ninety_nine_DDD">
+					<SimpleData name="latitude">46.6799</SimpleData>
+					<SimpleData name="longitude">-114.039</SimpleData>
+					<SimpleData name="altitude">1098.34</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-114.0387936388889,46.67989663888891,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_ninety_nine_DDD">
+					<SimpleData name="latitude">46.6798</SimpleData>
+					<SimpleData name="longitude">-114.039</SimpleData>
+					<SimpleData name="altitude">1098.18</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-114.03875775,46.67982502777778,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_ninety_nine_DDD">
+					<SimpleData name="latitude">46.6799</SimpleData>
+					<SimpleData name="longitude">-114.039</SimpleData>
+					<SimpleData name="altitude">1098.06</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-114.0387416111111,46.67985130555558,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_ninety_nine_DDD">
+					<SimpleData name="latitude">46.68</SimpleData>
+					<SimpleData name="longitude">-114.039</SimpleData>
+					<SimpleData name="altitude">1097.8</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-114.0387394444444,46.67995424999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_ninety_nine_DDD">
+					<SimpleData name="latitude">46.6802</SimpleData>
+					<SimpleData name="longitude">-114.039</SimpleData>
+					<SimpleData name="altitude">1097.62</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-114.0387388611111,46.68016005555555,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_ninety_nine_DDD">
+					<SimpleData name="latitude">46.6803</SimpleData>
+					<SimpleData name="longitude">-114.039</SimpleData>
+					<SimpleData name="altitude">1097.39</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-114.0387383333333,46.68032861111114,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_ninety_nine_DDD">
+					<SimpleData name="latitude">46.6805</SimpleData>
+					<SimpleData name="longitude">-114.039</SimpleData>
+					<SimpleData name="altitude">1097.56</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-114.0387380555556,46.68052330555555,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_ninety_nine_DDD">
+					<SimpleData name="latitude">46.6807</SimpleData>
+					<SimpleData name="longitude">-114.039</SimpleData>
+					<SimpleData name="altitude">1098.36</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-114.0387384722222,46.68072402777779,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_ninety_nine_DDD">
+					<SimpleData name="latitude">46.6809</SimpleData>
+					<SimpleData name="longitude">-114.039</SimpleData>
+					<SimpleData name="altitude">1099.26</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-114.0387391111111,46.68091622222222,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_ninety_nine_DDD">
+					<SimpleData name="latitude">46.6811</SimpleData>
+					<SimpleData name="longitude">-114.039</SimpleData>
+					<SimpleData name="altitude">1100.31</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-114.03874,46.68110969444443,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_ninety_nine_DDD">
+					<SimpleData name="latitude">46.6813</SimpleData>
+					<SimpleData name="longitude">-114.039</SimpleData>
+					<SimpleData name="altitude">1100.74</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-114.0387398055555,46.68130341666665,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_ninety_nine_DDD">
+					<SimpleData name="latitude">46.6815</SimpleData>
+					<SimpleData name="longitude">-114.039</SimpleData>
+					<SimpleData name="altitude">1100.6</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-114.0387398333333,46.6814928611111,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_ninety_nine_DDD">
+					<SimpleData name="latitude">46.6817</SimpleData>
+					<SimpleData name="longitude">-114.039</SimpleData>
+					<SimpleData name="altitude">1100.41</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-114.0387395555556,46.68169188888888,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_ninety_nine_DDD">
+					<SimpleData name="latitude">46.6819</SimpleData>
+					<SimpleData name="longitude">-114.039</SimpleData>
+					<SimpleData name="altitude">1100.08</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-114.0387386666667,46.68188069444443,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_ninety_nine_DDD">
+					<SimpleData name="latitude">46.6821</SimpleData>
+					<SimpleData name="longitude">-114.039</SimpleData>
+					<SimpleData name="altitude">1099.52</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-114.0387378611111,46.68207041666665,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_ninety_nine_DDD">
+					<SimpleData name="latitude">46.6825</SimpleData>
+					<SimpleData name="longitude">-114.039</SimpleData>
+					<SimpleData name="altitude">1099.02</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-114.0387385,46.682458,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_ninety_nine_DDD">
+					<SimpleData name="latitude">46.6827</SimpleData>
+					<SimpleData name="longitude">-114.039</SimpleData>
+					<SimpleData name="altitude">1098.65</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-114.0387380555556,46.68265524999997,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_ninety_nine_DDD">
+					<SimpleData name="latitude">46.6828</SimpleData>
+					<SimpleData name="longitude">-114.039</SimpleData>
+					<SimpleData name="altitude">1098.04</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-114.0387388055556,46.68284977777778,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_ninety_nine_DDD">
+					<SimpleData name="latitude">46.683</SimpleData>
+					<SimpleData name="longitude">-114.039</SimpleData>
+					<SimpleData name="altitude">1097.64</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-114.03873875,46.68303680555556,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_ninety_nine_DDD">
+					<SimpleData name="latitude">46.6823</SimpleData>
+					<SimpleData name="longitude">-114.039</SimpleData>
+					<SimpleData name="altitude">1099.08</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-114.0387383888889,46.68226533333333,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_ninety_nine_DDD">
+					<SimpleData name="latitude">46.6832</SimpleData>
+					<SimpleData name="longitude">-114.039</SimpleData>
+					<SimpleData name="altitude">1097.43</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-114.03873875,46.68323147222223,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_ninety_nine_DDD">
+					<SimpleData name="latitude">46.6834</SimpleData>
+					<SimpleData name="longitude">-114.039</SimpleData>
+					<SimpleData name="altitude">1097.39</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-114.0387378611111,46.68343047222222,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_ninety_nine_DDD">
+					<SimpleData name="latitude">46.6836</SimpleData>
+					<SimpleData name="longitude">-114.039</SimpleData>
+					<SimpleData name="altitude">1097.36</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-114.0387271944444,46.68361691666667,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_ninety_nine_DDD">
+					<SimpleData name="latitude">46.6838</SimpleData>
+					<SimpleData name="longitude">-114.039</SimpleData>
+					<SimpleData name="altitude">1097.18</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-114.0387087777778,46.68381383333332,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_ninety_nine_DDD">
+					<SimpleData name="latitude">46.684</SimpleData>
+					<SimpleData name="longitude">-114.039</SimpleData>
+					<SimpleData name="altitude">1096.48</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-114.0386903888889,46.68401166666668,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_ninety_nine_DDD">
+					<SimpleData name="latitude">46.6842</SimpleData>
+					<SimpleData name="longitude">-114.039</SimpleData>
+					<SimpleData name="altitude">1095.1</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-114.0386789722222,46.68420202777775,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_ninety_nine_DDD">
+					<SimpleData name="latitude">46.6845</SimpleData>
+					<SimpleData name="longitude">-114.039</SimpleData>
+					<SimpleData name="altitude">1094.77</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-114.0387374166666,46.68454358333331,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_ninety_nine_DDD">
+					<SimpleData name="latitude">46.6847</SimpleData>
+					<SimpleData name="longitude">-114.039</SimpleData>
+					<SimpleData name="altitude">1095.88</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-114.0387380277778,46.68471825,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_ninety_nine_DDD">
+					<SimpleData name="latitude">46.6849</SimpleData>
+					<SimpleData name="longitude">-114.039</SimpleData>
+					<SimpleData name="altitude">1096.75</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-114.0387379444444,46.6849115,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_ninety_nine_DDD">
+					<SimpleData name="latitude">46.6851</SimpleData>
+					<SimpleData name="longitude">-114.039</SimpleData>
+					<SimpleData name="altitude">1097.46</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-114.0387391666667,46.68510422222222,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_ninety_nine_DDD">
+					<SimpleData name="latitude">46.6853</SimpleData>
+					<SimpleData name="longitude">-114.039</SimpleData>
+					<SimpleData name="altitude">1097.89</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-114.0387384722222,46.68529275000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_ninety_nine_DDD">
+					<SimpleData name="latitude">46.6855</SimpleData>
+					<SimpleData name="longitude">-114.039</SimpleData>
+					<SimpleData name="altitude">1098.18</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-114.0387383611111,46.68549050000002,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_ninety_nine_DDD">
+					<SimpleData name="latitude">46.6857</SimpleData>
+					<SimpleData name="longitude">-114.039</SimpleData>
+					<SimpleData name="altitude">1098.25</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-114.0387384166667,46.68568713888887,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_ninety_nine_DDD">
+					<SimpleData name="latitude">46.6859</SimpleData>
+					<SimpleData name="longitude">-114.039</SimpleData>
+					<SimpleData name="altitude">1098.57</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-114.0387383333333,46.68587933333332,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_ninety_nine_DDD">
+					<SimpleData name="latitude">46.6861</SimpleData>
+					<SimpleData name="longitude">-114.039</SimpleData>
+					<SimpleData name="altitude">1098.54</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-114.03873825,46.68607155555554,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_ninety_nine_DDD">
+					<SimpleData name="latitude">46.6863</SimpleData>
+					<SimpleData name="longitude">-114.039</SimpleData>
+					<SimpleData name="altitude">1098.76</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-114.0387383888889,46.68626180555553,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_ninety_nine_DDD">
+					<SimpleData name="latitude">46.6865</SimpleData>
+					<SimpleData name="longitude">-114.039</SimpleData>
+					<SimpleData name="altitude">1098.25</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-114.03873875,46.68645963888888,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_ninety_nine_DDD">
+					<SimpleData name="latitude">46.6867</SimpleData>
+					<SimpleData name="longitude">-114.039</SimpleData>
+					<SimpleData name="altitude">1097.04</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-114.0387386111111,46.6866513611111,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_ninety_nine_DDD">
+					<SimpleData name="latitude">46.687</SimpleData>
+					<SimpleData name="longitude">-114.039</SimpleData>
+					<SimpleData name="altitude">1095.62</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-114.03873875,46.68703780555555,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_ninety_nine_DDD">
+					<SimpleData name="latitude">46.6869</SimpleData>
+					<SimpleData name="longitude">-114.039</SimpleData>
+					<SimpleData name="altitude">1096.12</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-114.0387386388889,46.68685736111108,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_ninety_nine_DDD">
+					<SimpleData name="latitude">46.6874</SimpleData>
+					<SimpleData name="longitude">-114.039</SimpleData>
+					<SimpleData name="altitude">1094.6</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-114.0387390277778,46.68743225000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_ninety_nine_DDD">
+					<SimpleData name="latitude">46.6872</SimpleData>
+					<SimpleData name="longitude">-114.039</SimpleData>
+					<SimpleData name="altitude">1095.1</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-114.0387385,46.68722727777778,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_ninety_nine_DDD">
+					<SimpleData name="latitude">46.6876</SimpleData>
+					<SimpleData name="longitude">-114.039</SimpleData>
+					<SimpleData name="altitude">1094.25</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-114.0387399444444,46.68762466666665,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_ninety_nine_DDD">
+					<SimpleData name="latitude">46.6878</SimpleData>
+					<SimpleData name="longitude">-114.039</SimpleData>
+					<SimpleData name="altitude">1094.1</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-114.0387397777778,46.68781338888891,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_ninety_nine_DDD">
+					<SimpleData name="latitude">46.6879</SimpleData>
+					<SimpleData name="longitude">-114.039</SimpleData>
+					<SimpleData name="altitude">1094.13</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-114.0387823888889,46.68794125,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_ninety_nine_DDD">
+					<SimpleData name="latitude">46.688</SimpleData>
+					<SimpleData name="longitude">-114.039</SimpleData>
+					<SimpleData name="altitude">1094.12</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-114.0389518611111,46.68797041666669,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_ninety_nine_DDD">
+					<SimpleData name="latitude">46.688</SimpleData>
+					<SimpleData name="longitude">-114.039</SimpleData>
+					<SimpleData name="altitude">1094.36</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-114.0391826111111,46.68796577777777,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_ninety_nine_DDD">
+					<SimpleData name="latitude">46.6877</SimpleData>
+					<SimpleData name="longitude">-114.039</SimpleData>
+					<SimpleData name="altitude">1094.66</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-114.0393021111111,46.68774783333332,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_ninety_nine_DDD">
+					<SimpleData name="latitude">46.6876</SimpleData>
+					<SimpleData name="longitude">-114.039</SimpleData>
+					<SimpleData name="altitude">1094.74</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-114.0393033888889,46.68756147222221,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_ninety_nine_DDD">
+					<SimpleData name="latitude">46.6874</SimpleData>
+					<SimpleData name="longitude">-114.039</SimpleData>
+					<SimpleData name="altitude">1094.62</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-114.0393029166667,46.68736541666667,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_ninety_nine_DDD">
+					<SimpleData name="latitude">46.6879</SimpleData>
+					<SimpleData name="longitude">-114.039</SimpleData>
+					<SimpleData name="altitude">1094.43</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-114.0392925833333,46.68789027777776,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_ninety_nine_DDD">
+					<SimpleData name="latitude">46.6872</SimpleData>
+					<SimpleData name="longitude">-114.039</SimpleData>
+					<SimpleData name="altitude">1094.65</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-114.03930275,46.68717175,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_ninety_nine_DDD">
+					<SimpleData name="latitude">46.6868</SimpleData>
+					<SimpleData name="longitude">-114.039</SimpleData>
+					<SimpleData name="altitude">1095.02</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-114.0393016944444,46.6867917777778,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_ninety_nine_DDD">
+					<SimpleData name="latitude">46.6866</SimpleData>
+					<SimpleData name="longitude">-114.039</SimpleData>
+					<SimpleData name="altitude">1095.03</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-114.0393009722222,46.68659274999997,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_ninety_nine_DDD">
+					<SimpleData name="latitude">46.687</SimpleData>
+					<SimpleData name="longitude">-114.039</SimpleData>
+					<SimpleData name="altitude">1094.76</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-114.03930275,46.68698052777778,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_ninety_nine_DDD">
+					<SimpleData name="latitude">46.6864</SimpleData>
+					<SimpleData name="longitude">-114.039</SimpleData>
+					<SimpleData name="altitude">1094.92</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-114.0393011388889,46.68640041666664,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_ninety_nine_DDD">
+					<SimpleData name="latitude">46.6862</SimpleData>
+					<SimpleData name="longitude">-114.039</SimpleData>
+					<SimpleData name="altitude">1094.71</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-114.0393003888889,46.6862067222222,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_ninety_nine_DDD">
+					<SimpleData name="latitude">46.686</SimpleData>
+					<SimpleData name="longitude">-114.039</SimpleData>
+					<SimpleData name="altitude">1094.31</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-114.0393009722222,46.68600575000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_ninety_nine_DDD">
+					<SimpleData name="latitude">46.6858</SimpleData>
+					<SimpleData name="longitude">-114.039</SimpleData>
+					<SimpleData name="altitude">1094.27</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-114.0393043888889,46.68582269444442,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_ninety_nine_DDD">
+					<SimpleData name="latitude">46.6858</SimpleData>
+					<SimpleData name="longitude">-114.039</SimpleData>
+					<SimpleData name="altitude">1094.21</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-114.0393304166667,46.68576666666668,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_ninety_nine_DDD">
+					<SimpleData name="latitude">46.6858</SimpleData>
+					<SimpleData name="longitude">-114.039</SimpleData>
+					<SimpleData name="altitude">1094.07</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-114.0393617222222,46.68581977777775,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_ninety_nine_DDD">
+					<SimpleData name="latitude">46.686</SimpleData>
+					<SimpleData name="longitude">-114.039</SimpleData>
+					<SimpleData name="altitude">1093.9</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-114.0394232222222,46.68595586111111,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_ninety_nine_DDD">
+					<SimpleData name="latitude">46.6862</SimpleData>
+					<SimpleData name="longitude">-114.04</SimpleData>
+					<SimpleData name="altitude">1093.58</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-114.0395094722222,46.68615405555557,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_ninety_nine_DDD">
+					<SimpleData name="latitude">46.6863</SimpleData>
+					<SimpleData name="longitude">-114.04</SimpleData>
+					<SimpleData name="altitude">1093.14</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-114.0395836944444,46.6863247222222,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_ninety_nine_DDD">
+					<SimpleData name="latitude">46.6867</SimpleData>
+					<SimpleData name="longitude">-114.04</SimpleData>
+					<SimpleData name="altitude">1091.9</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-114.0397446111111,46.68668936111113,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_ninety_nine_DDD">
+					<SimpleData name="latitude">46.6865</SimpleData>
+					<SimpleData name="longitude">-114.04</SimpleData>
+					<SimpleData name="altitude">1092.39</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-114.0396655555556,46.68650977777776,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_ninety_nine_DDD">
+					<SimpleData name="latitude">46.6869</SimpleData>
+					<SimpleData name="longitude">-114.04</SimpleData>
+					<SimpleData name="altitude">1091.61</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-114.0398269722222,46.68688174999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_ninety_nine_DDD">
+					<SimpleData name="latitude">46.6871</SimpleData>
+					<SimpleData name="longitude">-114.04</SimpleData>
+					<SimpleData name="altitude">1091.75</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-114.0398623888889,46.68706324999998,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_ninety_nine_DDD">
+					<SimpleData name="latitude">46.6873</SimpleData>
+					<SimpleData name="longitude">-114.04</SimpleData>
+					<SimpleData name="altitude">1092.36</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-114.0398649722222,46.68727174999997,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_ninety_nine_DDD">
+					<SimpleData name="latitude">46.6875</SimpleData>
+					<SimpleData name="longitude">-114.04</SimpleData>
+					<SimpleData name="altitude">1092.93</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-114.0398650277778,46.68745625,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_ninety_nine_DDD">
+					<SimpleData name="latitude">46.6876</SimpleData>
+					<SimpleData name="longitude">-114.04</SimpleData>
+					<SimpleData name="altitude">1093.93</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-114.0398649166667,46.68764311111111,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_ninety_nine_DDD">
+					<SimpleData name="latitude">46.6878</SimpleData>
+					<SimpleData name="longitude">-114.04</SimpleData>
+					<SimpleData name="altitude">1094.83</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-114.0398623333333,46.68784475000001,0</coordinates>
+			</Point>
+		</Placemark>
+</Document>
+</kml>

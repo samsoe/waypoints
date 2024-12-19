@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>DJI Mavic 3 Enterprise Waypoints</name>
+    <description>Waypoint mission for DJI Mavic 3 Enterprise</description>
+    <Style id="waypointStyle">
+      <IconStyle>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Placemark>
+      <name>Waypoint 1</name>
+      <description>Start Point</description>
+      <styleUrl>#waypointStyle</styleUrl>
+      <Point>
+        <coordinates>-112.070312,36.058944,100</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Waypoint 2</name>
+      <description>Second Point</description>
+      <styleUrl>#waypointStyle</styleUrl>
+      <Point>
+        <coordinates>-112.070650,36.059394,120</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Waypoint 3</name>
+      <description>Third Point</description>
+      <styleUrl>#waypointStyle</styleUrl>
+      <Point>
+        <coordinates>-112.071000,36.059844,150</coordinates>
+      </Point>
+    </Placemark>
+  </Document>
+</kml>
